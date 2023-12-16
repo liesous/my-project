@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:wght@400;700&family=Noticia+Text&family=Pixelify+Sans&family=Roboto:wght@400;500;700&display=swap');
+
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Noticia Text', serif;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  background-color: #060606;
+  display: flex;
+  /* align-items: end; */
+  justify-content: end;
+  
+}
+
+.mini-logo {
+  position: relative;
+  left: -1430px;
+}
+
+.material-symbols-outlined {
+  color: white;
+  padding-top: 13px;
+  vertical-align: middle;
+  margin-right: 10px;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+
+.material-symbols-rounded {
+  color: white;
+  vertical-align: middle;
+  margin-right: 10px;
+  padding-top: 13px;
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+
+.material-symbols-rounded {
+  color: white;
+  vertical-align: middle;
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 200,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+
+.my-cart-text {
+  padding-top: 13px;
+  color: white;
+  vertical-align: middle;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-logo {
+  max-width: 370px;
+}
+
+nav{
+  background-color: #f5f5f5;;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+}
+
+nav ul li {
+  margin: 25px;
+  /* padding: 10px; */
+  list-style: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #060606;
+}
+
+.mens-category {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+.mens-category div {
+  padding: 10px;
+}
+
+.container {
+  margin: auto;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  margin-bottom: 100px;
+}
+
+
+.container label {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-family: 'Noticia Text', serif;
+}
+
+.container input {
+  width: 400px;
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-family: 'Noticia Text', serif;
+}
+
+.container button{
+  padding: 15px;
+  width: 425px;
+  margin: auto;
+  background-color: #060606;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-family: 'Noticia Text', serif;
+}
+
+#create-account {
+  padding: 15px;
+  width: 425px;
+  margin: auto;
+  background-color: #ddd;
+  color: black;
+  border-radius: 5px;
+  border: none;
+  font-family: 'Noticia Text', serif;
+}
+
+.contacts{
+  background-color: #060606;
+  height: 500px;
+  width: 100%;
+  font-family: 'Noticia Text', serif;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 16px;
+  padding-top: 70px;
+  position: absolute;
+
+}
+
+.contacts div ul li {
+  color: white;
+  list-style: none;
+  cursor: pointer;
+  padding: 5px;
+  margin-left: -400px;
+}
+
+.contacts div p {
+  color: white;
+  padding: 5px;
+  margin-left: -400px;
+}
+.contacts div input {
+  width: 700px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-left: -400px;
+  margin-right: 40px;
+}
+
+.contacts div button {
+  color: white;
+  border: white solid 1px;
+  border-radius: 50%;
+  background-color: black;
+  padding: 10px 20px;
+}
+
+.or-text {
+  text-align: center;
+}
+
+.container2 {
+  margin: auto;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  border: #060606 solid;
+  background-color: white;
+  z-index: 3;
+  position: fixed;
+}
+.container2 label {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-family: 'Noticia Text', serif;
+  margin-left: -350px;
+}
+
+.container2 input {
+  width: 400px;
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-family: 'Noticia Text', serif;
+  display: flex;
+}
+
+.container2 button{
+  padding: 15px;
+  width: 425px;
+  margin: auto;
+  background-color: #060606;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-family: 'Noticia Text', serif;
+}
+#registration {
+  z-index: 0;
+  opacity: 0;
+}
+
+.active#registration {
+  z-index: 1;
+  opacity: 1;
+  margin-bottom: 100px;
+  position: fixed;
+  top: 100px;
+  left: 580px;
+}
+#close{
+  position: relative;
+  right: -250px;
+  top: 20px;
+  cursor: pointer;
+  font-size: 35px;
+}
+
+#create-button {
+  margin-bottom: 50px;
+}

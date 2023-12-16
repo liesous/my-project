@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="login.css">
+  <link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+/>
+<link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+/>
+<link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,1,0"
+/>
+  <title>Document</title>
+</head>
+<body>
+  <div class="header">
+    <img src="josh-logo inv.png" class="mini-logo">
+    <span class="material-symbols-outlined"> search </span>
+    <span class="material-symbols-rounded"> person </span>
+    <span class="my-cart-text">MY CART</span>
+    <span class="material-symbols-rounded"> shopping_cart </span>
+  </div>
+  <div class="logo">
+    <img src="josh-logo.png" class="main-logo">
+  </div>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="men-products.html">Men</a></li>
+      <li><a href="womens-products.html">Women</a></li>
+      <li><a href="kids-products.html">Kids</a></li>
+      <li><a href="#">Brands</a></li>
+    </ul>
+  </nav>
+  <div class="mens-category">
+    <div>
+      Home > Account
+    </div>
+    <h2>
+      Login
+    </h2>
+  </div>
+
+  <div class="login">
+    <div class="container">
+      <label for="">Email</label>
+      <input id="email" type="email">
+      <label for="">Password</label>
+      <input id="password" type="password">
+      <button onclick="loginButton()">Sign In</button>
+      <hr><span class="or-text">or</span><hr>
+      <button id="create-account" onclick="registrationToggle()">Create Account</button>
+    </div>
+  </div>
+  
+  <div id="registration"> 
+    <div class="container2">
+      <span id="close" onclick="registrationToggle()">&times;</span>
+      <h2>Create Account</h2>
+      <label for="">First Name</label>
+      <input type="text">
+      <label for="">Last Name</label>
+      <input type="text">
+      <label for="">Email</label>
+      <input id="email-input" type="email">
+      <label for="">Password</label>
+      <input id="password-input" type="password">
+      <button id="create-button" onclick="getUserRegister()">Create</button>
+    </div>
+  </div>
+
+  <div class="contacts">
+    <div>
+      <ul>
+        <li><a href="#"></a>Explore</li>
+        <li><a href="#"></a>Search</li>
+        <li><a href="#"></a>Our Store</li>
+        <li><a href="#"></a>Contact Us</li>
+        <li><a href="#"></a>Refund Policy</li>
+        <li><a href="#"></a>Privacy Policy</li>
+        <li><a href="#"></a>Terms of Service</li>
+      </ul>
+    </div>
+    <div>
+      <p>Connect</p>
+      <p>Join our mailing list for update</p>
+      <input type="email" placeholder="Enter Email Address">
+      <button>Join</button>
+    </div>
+  </div>
+  <script src="login.js"></script>
+</body>
+</html>
